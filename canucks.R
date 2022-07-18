@@ -124,7 +124,7 @@ update_geom_defaults("point",list(size=5))
 ggplot(data = dfshots, mapping = aes(x = S, y = spx)) +
          geom_point(mapping = NULL, data = dfshots, stat = "identity", na.rm = FALSE, col = "red")+
   geom_smooth() +
-  ggtitle(label = "SOG plotted against shooting %, 2019-20") 
+  ggtitle(label = "SOG plotted against shooting %, 2019-22") 
   
 
 ##______________________________________________________________________________
